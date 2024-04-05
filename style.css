@@ -1,0 +1,331 @@
+/* Write some CSS below */
+body {
+    margin: 0px;   
+    background-color: #EBEBD1;
+   
+}
+
+.banner {
+    /* padding: 100px 0px; */
+    text-align: center;
+    height: 500px;
+    position: relative;
+}
+
+/* .effectbanner {
+    transition: 0.3s;
+}
+.effectbanner:hover {
+    transform: scale(1.01);
+    filter:blur(8px);
+}   */
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textbanner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textbanner h1 {
+    font-size: 64px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+}
+
+.textbanner p {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+}
+
+#img-blur {
+    transition: 0.5s;
+}
+
+.blur {
+    filter: blur(13px);
+}
+
+.big-btn {
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #ed7733;
+    padding: 10px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+
+}
+.big-btn:hover {
+    background-color: #8fdba3;
+}
+.btn-inscription { 
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #ed7733;
+    padding: 10px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+}
+.btn-inscription:hover {
+    background-color: #E9BC85;
+}
+.btn-left {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 15px 45px;
+    color: #8fdba3;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:slnt 0;
+}
+
+.btn-left:hover {
+    color: #ed7733;
+    font-size: 32px;
+}
+
+.btn-right {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 15px 45px;
+    color: #8fdba3;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:slnt 0;
+}
+
+.btn-right:hover {
+    color: #ed7733;
+    font-size: 32px;
+}
+
+.container {
+    margin: 40px auto;
+    width: 1200px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+}
+.container-footer {
+    background-size: cover;
+    background-position: center;
+    background-color: #ff7af8;
+    text-align: center;
+    padding: 30px 0px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+}
+.card-tour {
+    background-color: #E9BC85;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 4px;
+    margin: 50px 5px;
+}
+
+.effect { 
+    transition: 0.3s;
+}
+.effect:hover { 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: scale(1.1);
+    background-color: #8fdba3;
+}
+
+.effet { 
+    transition: 0.3s;
+}
+.effet:hover { 
+    transform: scale(1.9);
+}
+
+.photoeffect {
+    transition: 0.3s;
+}
+.photoeffect:hover {
+    transform: scale(1.2);
+}
+.card-tour img {
+    height: 200px;
+    border-radius: 6px;
+    object-fit: cover;
+    width: 100%;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px; 
+}
+
+.btn-bas {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 15px 25px;
+    color: #8fdba3;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style:normal;
+    font-variation-settings:slnt 0;
+}
+.btn-bas:hover {
+    color: #ed7733;
+    font-size: 30px
+
+}
+.list-inline {
+    padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+font-size: 40px;
+padding: 20px;
+}
+
+.list-inline i {
+    color: #8fdba3;
+}
+
+.list-inline i:hover {
+    color: #ed7733;
+    font-size: 42px;
+}
+
+
+a {  
+    text-decoration: none;
+}
+
+
+.langue {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 15px 25px;
+    color: #8fdba3;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style:normal;
+  font-variation-settings:"slnt" 0;
+}
+.langue:hover {
+    color: #ed7733;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.navlangue {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h2 { 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color:white;
+}
+.h2uno { 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #ed7733;
+}
+
+.image-main {
+width: 100%;
+position: relative;
+transition: 0.5s;
+}
+.image-main img {
+    width: 100%;
+}
+.image-minor { 
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.image-main:hover .image-minor {
+    opacity: 1;
+}
